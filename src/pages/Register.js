@@ -13,7 +13,7 @@ function Register() {
                 <input type='password' placeholder='votre mot de passe'/>
                 <input style={{display: "none"}} type='file' id="file"/>
                 <label htmlFor="file">
-                    <img src={Img} alt=""/>
+                    <img src={Img} alt="" style={{width:30}}/>
                     <span>Ajouter une Image</span>
                 </label>
                 <button>Sign up</button>
