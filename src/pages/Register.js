@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../image/face30.png"
+import Img from "../image/R.png"
 
 function Register() {
   return (
