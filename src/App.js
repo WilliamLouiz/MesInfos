@@ -1,11 +1,15 @@
 import './App.css';
-import Register from './pages/Register';
-import Home from './pages/Home';
+import Contenu from './pages/Contenu';
+import React from 'react';
+import Sidebar from './pages/Sidebar'
 
 function App() {
   return (
     <div className="App">
-      <Register/>
+      <div className="container">
+        <Sidebar />
+        <Contenu />
+      </div>
     </div>
   );
 }
